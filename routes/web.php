@@ -17,6 +17,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//dev route - 
+Route::get('dev',function(){
+	echo "Developoer";
+});
+
+
+
+
 
 //Name route
 Route::get('samim',function(){
