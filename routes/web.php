@@ -18,6 +18,12 @@ Route::get('/', function () {
 });
 
 
+
+
+//prefix route
+
+Route::prefix('user')->group(function () {
+
 Route::get('about-us',function(){
 	echo "It's about us page";
 });
@@ -28,6 +34,9 @@ Route::get('contact-us',function(){
 
 });
 
-Route::get('dev/{name?}/{age?}',function($name='', $age=''){
+Route::get('dev/{name?}/{age?}',function($name='Ashraf', $age='30'){
 	echo "My name is $name and age is $age";
 });
+
+
+});//end of the prefix route
