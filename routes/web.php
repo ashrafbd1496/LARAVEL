@@ -18,6 +18,14 @@ Route::get('/', function () {
 });
 
 
+//Name route
+Route::get('samim',function(){
+	echo "My name is shamim";
+})->name('shamim-ahmed');
+
+Route::get('sakir',function(){
+	echo "My name is sakir";
+})->name('sakir-ahmed');
 
 
 //prefix route
