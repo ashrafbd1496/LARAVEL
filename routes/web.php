@@ -17,17 +17,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-Route::get('about-us',function(){
-	echo "It's about us page";
-});
-
-Route::get('contact-us',function(){
-
-	echo "It's Contact us page";
-
-});
-
-Route::get('dev/{name?}/{age?}',function($name='', $age=''){
-	echo "My name is $name and age is $age";
-});
