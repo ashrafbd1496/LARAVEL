@@ -13,9 +13,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
+
+
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+//student route
+
+Route::get('student', 'StudentController@index');
+
+
 
 //dev route - 
 Route::get('dev',function(){
