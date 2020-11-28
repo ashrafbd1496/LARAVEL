@@ -45,7 +45,7 @@ class TeacherController extends Controller
      */
     public function show($id)
     {
-        //
+        echo "This is my id $id";
     }
 
     /**
@@ -56,7 +56,7 @@ class TeacherController extends Controller
      */
     public function edit($id)
     {
-        //
+        echo "This is edit and id is $id";
     }
 
     /**
