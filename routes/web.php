@@ -13,13 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-Route::get('/', function(){
-	return view('index');
-});
-
-Route::get('table', function(){
-	return view('table');
-});
-
-
+Route::get('/', 'CrudController@showSinguUpPage');
+Route::get('table', 'CrudController@showTablePage');
