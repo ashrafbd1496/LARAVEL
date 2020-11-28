@@ -22,6 +22,9 @@ Route::get('/', function () {
 });
 
 
+//Resource controller
+Route::resource('teacher','TeacherController');
+
 //student route
 
 Route::get('student', 'StudentController@index');
