@@ -9,11 +9,16 @@
 	<link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
-	
-	
 
-	<div class="wrap shadow">
-		<div class="card">
+    @php
+        $name = "ashraf Uddin";
+    @endphp
+
+	{{$name}}
+
+	<div class="wrap ">
+		<a class="btn btn-primary btn-sm" href="#">All Data</a>
+		<div class="card shadow">
 			<div class="card-body">
 				<h2>Sign Up</h2>
 				<form action="">
@@ -40,7 +45,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 
 
 
