@@ -9,11 +9,11 @@
 	<link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
-	
-	
+
+
 
 	<div class="wrap-table ">
-		<a class="btn btn-primary btn-sm" href="#">Add Student</a>
+		<a class="btn btn-primary btn-sm" href="{{url('/')}}">Add Student</a>
 		<div class="card shadow">
 			<div class="card-body">
 				<h2>All Data</h2>
@@ -89,14 +89,14 @@
 								<a class="btn btn-sm btn-danger" href="#">Delete</a>
 							</td>
 						</tr>
-						
+
 
 					</tbody>
 				</table>
 			</div>
 		</div>
 	</div>
-	
+
 
 
 

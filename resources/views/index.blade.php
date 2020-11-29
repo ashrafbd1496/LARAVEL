@@ -10,10 +10,9 @@
 </head>
 <body>
 
-   {!! "Hello ; I'm blade " !!}
 
 	<div class="wrap ">
-		<a class="btn btn-primary btn-sm" href="#">All Data</a>
+		<a class="btn btn-primary btn-sm" href="{{url('table')}}">All Data</a>
 		<div class="card shadow">
 			<div class="card-body">
 				<h2>Sign Up</h2>
