@@ -13,5 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'CrudController@showSinguUpPage');
-Route::get('table', 'CrudController@showTablePage');
+Route::get('/', 'CrudController@showSinguUpPage')->name('main');
+Route::get('table', 'CrudController@showTablePage')->name('all-data');

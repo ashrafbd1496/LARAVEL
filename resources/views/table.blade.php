@@ -13,7 +13,7 @@
 
 
 	<div class="wrap-table ">
-		<a class="btn btn-primary btn-sm" href="{{url('/')}}">Add Student</a>
+		<a class="btn btn-primary btn-sm" href="{{route('main')}}">Add Student</a>
 		<div class="card shadow">
 			<div class="card-body">
 				<h2>All Data</h2>
