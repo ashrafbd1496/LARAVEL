@@ -11,10 +11,15 @@
 <body>
 
     @php
-        $name = "ashraf Uddin";
+        $tk = 1000;
     @endphp
 
-	{{$name}}
+    @if($tk > 100)
+        {{'this is big'}}
+    @else
+      {{'this is small'}}
+    @endif
+
 
 	<div class="wrap ">
 		<a class="btn btn-primary btn-sm" href="#">All Data</a>
